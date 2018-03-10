@@ -1,4 +1,12 @@
 {
-  "extends": "standard",
-  "root": true
+  "extends": "eslint:recommended",
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion":6
+  },
+  "env": {
+    "es6": true,
+    "jest": true,
+    "node": true
+  }
 }
